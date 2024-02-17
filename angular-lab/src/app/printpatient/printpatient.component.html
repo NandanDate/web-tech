@@ -1,0 +1,9 @@
+<p>printpatient works!</p>
+<div *ngIf="names.length > 0">
+    <h2>Entered Information:</h2>
+    <ul>
+      <li *ngFor="let name of names; let i = index">
+        Name: {{ name }} | Age: {{ ages[i] }}|Adresse:{{addresses[i]}}
+      </li>
+    </ul>
+  </div>

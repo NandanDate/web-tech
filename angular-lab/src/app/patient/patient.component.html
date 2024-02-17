@@ -1,0 +1,15 @@
+<h1>Enter Name and Age</h1>
+
+<form (ngSubmit)="onSubmit(name.value, age.value , address.value)">
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name" #name><br><br>
+
+  <label for="age">Age:</label><br>
+  <input type="number" id="age" name="age" #age><br><br>
+  <label for="address">Address:</label><br>
+  <input type="text" id="address" name="address" #address><br><br>
+
+  <input type="submit" value="Submit">
+</form>
+
+<!-- Display entered names and ages -->
