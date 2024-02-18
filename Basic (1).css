@@ -1,0 +1,44 @@
+
+h1 {  
+margin-left: 70px;
+color: green;
+} 
+body {
+    background-color: lightblue;
+}
+form li {  
+list-style: none;  
+margin-bottom: 5px;  
+}  
+  
+form  li label{  
+float: left;  
+clear: left;  
+width: 100px;  
+text-align: right;  
+margin-right: 20px;  
+font-family:Verdana, Arial, Helvetica, sans-serif;  
+font-size:18px;  
+}  
+  
+form  li input, select, span {  
+float: left;  
+margin-bottom: 20px;  
+}  
+  
+form textarea {  
+float: left;  
+width: 350px;  
+height: 150px;  
+}  
+  
+[type="submit"] {  
+clear: left;  
+margin: 20px 0 0 230px;  
+font-size:18px  
+}  
+  
+p {  
+margin-left: 70px;  
+font-weight: bold;  
+}  
